@@ -1,3 +1,12 @@
+
+function ShowText(lineNum){
+const line = document.getElementById("linje" + lineNum);
+alert(line.innerText)
+}
+
+
+
+/*
 const linje1 = document.getElementById("linje1");
 const linje2 = document.getElementById("linje2");
 const linje3 = document.getElementById("linje3");
@@ -31,3 +40,4 @@ alert(linje5.innerText);
 function myFunction6() {
 alert(linje6.innerText);
 }
+*/
